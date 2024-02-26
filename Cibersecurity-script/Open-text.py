@@ -40,6 +40,6 @@ def check_ip(list_ip,list_remove):
 
 if 5> 10:
     print("Hello")
-el    
+    
                 
     
