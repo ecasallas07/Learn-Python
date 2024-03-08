@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -76,11 +77,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "prueba",
+        "NAME": "prueba1",
         "USER": "root",
         "PASSWORD": "",
-        "HOST": "127.0.0.1",
-        "PORT": "3306",
+        "HOST": "localhost",
+
     }
 }
 

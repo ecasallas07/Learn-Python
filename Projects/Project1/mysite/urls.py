@@ -16,6 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+
+# import all routes od my app blog
 from blog import views
 
     # one form routes with function direct

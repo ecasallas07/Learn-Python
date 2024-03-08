@@ -8,3 +8,6 @@ def index(request):
 
 def profile(request):
     return HttpResponse("Profile")
+
+def example(request):
+    return HttpResponse("Hello, world. You're at the blog example.")
