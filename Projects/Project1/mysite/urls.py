@@ -23,7 +23,7 @@ from blog import views
     # one form routes with function direct
     # path('',index)
 urlpatterns = [
-    path('',include("blog.urls") ), #de esta forma se ejecutan todas las rutas de mi blog, debe quedar vacio, porque depsues del vacio se ejecutan todas las rutas de la app
+    path('blog/',include("blog.urls") ), #de esta forma se ejecutan todas las rutas de mi blog, debe quedar vacio, porque depsues del vacio se ejecutan todas las rutas de la app
     #si se desea se puede escribir cualquier palabra como home/ y desde ahi se pone el nombre de las rutas de app
     path('admin/', admin.site.urls),
     # path('about/',views.profile)
