@@ -1,0 +1,9 @@
+{% if student_list  %}
+    <ul>
+    {% for student in student_list %}
+        <li><a href="/blog{{student_id}}/student/">{{ student.first_name }}</a></li>
+    {% endfor %}    
+    </ul>
+{% else %}    
+<p>No students are avaliable</p>
+{% endif %}
