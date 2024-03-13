@@ -1,4 +1,5 @@
 ### tuples ###
+### definition spanish: COLECCION DE DATOS PER INMUTABLE, SE ACCEDE MEDIANTE UN INDEX
 
 # the difrence with the tuples is tha not permited modficated values
 my_tuple =()

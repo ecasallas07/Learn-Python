@@ -1,4 +1,5 @@
 ### lists ###
+## definition in spanish : LAS LISTAS SON MUTABLES Y SE ACCEDE A ELLAS MEDIANTE  UN INDEX
 
 # forms of declareted lists
 my_list = list()

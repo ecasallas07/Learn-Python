@@ -1,4 +1,5 @@
-### sets ###
+### set ###
+# definition in spanish: COLECCION DESORDENADA  DE VALORES UNICOS, ELIMINA VALORES UNICOS
 
 my_set = set()
 my_other_set = {}
