@@ -88,3 +88,18 @@ Crea un programa que invierta el orden de una cadena de texto
 sin usar funciones propias del lenguaje que lo hagan de forma automática.
 - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
 """
+
+print("Invert word ************************************************")
+
+def invert_word(word):
+    number=len(word)
+    result =list()
+    for i in range(number - 1,-1,-1):
+        result.append(word[i])
+    # convert list to string        
+    cadena = ''.join(result)
+    print(cadena)    
+invert_word("Hola mundo")            
+        
+        
+    

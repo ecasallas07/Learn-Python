@@ -42,3 +42,23 @@ print(language.isnumeric()) # false
 print("1".isnumeric()) # true
 
 
+# end paramter in string
+
+print("Hello world",end=' ')
+print("developer Ramirez",end=' ')
+
+
+# sep parameter in formating string
+   
+print('G','F', sep='', end='')
+print('G')
+#\n provides new line after printing the year
+print('09','12','2016', sep='-', end='\n')
+  
+print('Red','Green','Blue', sep=',', end='@')
+print('geeksforgeeks')
+
+# using format() method and referring a position of the object
+print('{0} and {1}'.format('Geeks', 'Portal'))
+ 
+print('{1} and {0}'.format('Geeks', 'Portal'))
