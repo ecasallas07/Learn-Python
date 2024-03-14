@@ -37,7 +37,7 @@ def anagram(word1,word2):
         return False
     return sorted(word1.lower()) == sorted(word2.lower())
 
-print(anagram("hloel","hello"))
+# print(anagram("hloel","hello"))
 
 
 """
@@ -58,7 +58,7 @@ def fibonnacci():
         fib = prev + next
         prev = next
         next = fib
-fibonnacci()        
+# fibonnacci()        
     
     
 """
@@ -66,6 +66,20 @@ fibonnacci()
 Escribe un programa que se encargue de comprobar si un número es o no primo.
 Hecho esto, imprime los números primos entre 1 y 100.
 """    
+def is_prime():
+    for number in range(0,101):
+        
+        if number >= 2:
+            is_divisible = False
+            
+            for index in range(2,number):
+                if number % index == 0:
+                    is_divisible = True
+                    print(number)
+                    break
+            if not is_divisible:
+                print(number)    
+print(is_prime())    
 
 
 """
