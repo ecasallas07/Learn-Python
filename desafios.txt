@@ -1,0 +1,9 @@
+Desafios:
+
+Resolver en menos de 3 horas y sin acudir a chatgpt o videos tutoriales
+
+1. Indicar si un string es palindromo.
+2. Dividir 2 numeros sin utilizar el simbolo de division ni multiplicacion.
+3. Iterano array una vez encuentre  el numero mayor y menor.
+4. Crear una api con 4 metodos - el usuario debe estar registrado.
+5. Llenar una basa de datos con la api que creaste, ademas importar base de datos en CSV.
