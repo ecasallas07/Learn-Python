@@ -1,0 +1,2 @@
+Hello, World.
+That is a test for learning python with function for read files
