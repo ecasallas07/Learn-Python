@@ -16,14 +16,14 @@ while  time <= 10:
  
  
  #Uses of <break> in the loops as for
-computers = ["Asus", "Mac", "HP"];
+computers = ["Asus", "Mac", "HP"]
 for i in computers:
     if i == "Mac":
         break # break the (for) when find :"Mac" in the array 
     print(i)
     
     
-letters = ["A","B","C","D","E","F","G","H","I"];
+letters = ["A","B","C","D","E","F","G","H","I"]
 for word in letters:
     if word == "C":
         continue # the used of continue is for that if letter is equal a <"C"> the for continue wiht the iteration
