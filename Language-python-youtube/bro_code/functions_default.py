@@ -1,3 +1,7 @@
+# imports functions
+import functools
+
+
 #map = applies a function to each item in an iterable (list,tuple,etc)
 # map(function,iterable)
 
@@ -41,14 +45,10 @@ print(drinking)
 
 
 # reduce function = apply a function to an iterable  adn reduce it to a single cumulative value
-
-
-import functools
-
 letters = ["H","E","L","L","O"]
 
 word = functools.reduce(lambda x,y:x+y,letters)
-print(word)
+print(word) 
 
 
 
